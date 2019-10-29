@@ -1,0 +1,20 @@
+{
+  "name": "VeriosTest",
+  "version": "1.0.0",
+  "description": "Teste de Lógica para Vérios",
+  "main": "src/index.js",
+  "repository": "https://github.com/marssola/VeriosTest.git",
+  "author": "Mauro Marssola",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "GPLv3",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "create-flex-plugin": "^3.1.0",
+    "jest": "^24.9.0"
+  }
+}
