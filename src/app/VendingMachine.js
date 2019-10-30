@@ -17,12 +17,15 @@ class VendingMachine {
     
     giveMeMyChange (change, available, returned = {}) {
         available = available.sort((a, b) => a.coin < b.coin)
+        let total = available.map(c => c.coin * c.quant).reduce((a, c) => a + c)
         
         for (let k in available) {
             let { coin, quant, product } = available[k]
             if (coin <= change) {
-                if (quant < 1) 
+                if (total < change)
                     throw `Infelizmente não temos moedas para o seu troco. Retire seu dinheiro.`
+                if (quant < 1) 
+                    continue
                 if (!returned[coin])
                     returned[coin] = 1
                 else
