@@ -2,6 +2,7 @@ src/upload
 src/public
 *.kdev4*
 package-lock.json
+yarn.lock
 # Logs
 logs
 *.log
