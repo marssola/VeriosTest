@@ -28,7 +28,7 @@ $ node src/index.js
     * item = índice
 * -p, --pay value
   * Valor que o usuário está inserindo para fazer o pagamento
-  * value = valor monetário (5.00 ou 5)
+    * value = valor monetário (5.00 ou 5)
 * -b, --buy
   * Comprar o produto.
   * Este opção depende de informar o produto (-i, --product) a ser comprada e o valor a ser inserido (-p, --pay)
