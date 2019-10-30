@@ -21,10 +21,16 @@ $ node src/index.js
 ```
 
 ## Opções
-* -a, --all-products    Exibie todos os produtos
-* -i, --product <item>  Exibe o produto com base no índice informado <item> = índice
-* -p, --pay <value>     Payment value
-* -b, --buy               Comprar o produto. Este opção depende de informar o produto (-i, --product) a ser comprada e o valor a ser inserido (-p, --pay)
+* -a, --all-products    
+  * Exibie todos os produtos
+* -i, --product item  
+  * Exibe o produto com base no índice informado
+    * item = índice
+* -p, --pay value
+  * Valor que o usuário está inserindo para fazer o pagamento
+* -b, --buy
+  * Comprar o produto.
+  * Este opção depende de informar o produto (-i, --product) a ser comprada e o valor a ser inserido (-p, --pay)
   
 ## Exemplo
 
